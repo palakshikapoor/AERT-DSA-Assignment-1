@@ -1,0 +1,59 @@
+----- STACK DEMO -----
+Top element: 10
+Size: 2
+Popped: 10
+
+----- FACTORIAL -----
+Factorial of 0 = 1
+Factorial of 1 = 1
+Factorial of 5 = 120
+Factorial of 10 = 3628800
+
+----- FIBONACCI -----
+n = 5
+Naive Result: 5
+Naive Calls: 15
+Memo Result: 5
+Memo Calls: 9
+
+n = 10
+Naive Result: 55
+Naive Calls: 177
+Memo Result: 55
+Memo Calls: 19
+
+n = 20
+Naive Result: 6765
+Naive Calls: 21891
+Memo Result: 6765
+Memo Calls: 39
+
+n = 30
+Naive Result: 832040
+Naive Calls: 2692537
+Memo Result: 832040
+Memo Calls: 59
+
+----- TOWER OF HANOI (n=3) -----
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+
+----- BINARY SEARCH -----
+Searching 7 Index: 3
+Mid positions visited: [3]
+
+Searching 1 Index: 0
+Mid positions visited: [3, 1, 0]
+
+Searching 13 Index: 6
+Mid positions visited: [3, 5, 6]
+
+Searching 2 Index: -1
+Mid positions visited: [3, 1, 0]
+
+Search in empty array: -1
